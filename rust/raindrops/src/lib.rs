@@ -8,7 +8,7 @@ pub fn raindrops(n: u32) -> String {
         }
     }
 
-    if result.len() == 0 {
+    if result.is_empty() {
         result = n.to_string();
     }
 

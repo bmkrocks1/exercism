@@ -1,5 +1,5 @@
 pub fn build_proverb(list: &[&str]) -> String {
-    if list.len() == 0 {
+    if list.is_empty() {
         return String::new();
     }
 

@@ -15,7 +15,7 @@ pub fn factors(limit: u64) -> Vec<u64> {
 
         if q % p == 0 {
             output.push(p);
-            q = q / p;
+            q /= p;
         } else {
             current_prime = primes.next();
         }

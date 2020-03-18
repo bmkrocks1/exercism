@@ -2,7 +2,7 @@ pub fn reply(message: &str) -> &str {
     let trimmed = message.trim();
 
     // If it ends with question mark
-    let a_question = trimmed.ends_with("?");
+    let a_question = trimmed.ends_with('?');
 
     // If it contains any letter in the alphabet
     let has_letter = trimmed.contains(char::is_alphabetic);
